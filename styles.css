@@ -1,0 +1,112 @@
+body {
+    text-align: start;
+    color: white;
+    background: linear-gradient(rgb(0, 160, 185), rgb(0, 54, 124));
+    background-size: cover;
+    /* margin-bottom: 187px; */
+    line-height: 0px;
+}
+
+
+/* Main Container */
+#main-container {
+    display: block;
+    margin: 83px auto 83px auto;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 380px;
+    background: linear-gradient(#00204c, #001533);
+    line-height: 20px;
+}
+
+#inner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 70px;
+    margin-left: 35px;
+}
+
+
+
+/* Main header */
+#title-a {
+    font-size: 32px;
+    margin: 0;
+}
+
+#title-b {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    color: #4ADF86;
+}
+
+#subheader {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+
+
+/* Generator Password Button */
+#gen-pass-btn {
+    width: 150px;
+    margin: 30px 0 30px 0;
+    color: white;
+    /* text-shadow: 1px 1px black; */
+    font-weight: bold;
+    background-color: #10B981;
+    border: none;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid transparent;
+}
+
+#gen-pass-btn:hover {
+    border: 2px solid white;
+}
+
+
+
+/* Generator Passwords */
+#password-1-2 {
+    display: flex;
+    justify-content: start;
+    border-top: 1px solid #2F3E53;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#password-1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 13px;
+    padding-left: 13px;
+    width: 135px;
+    height: 20px;
+    background-color: #001f4b;
+}
+
+#password-2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 7px;
+    margin-right: 0px;
+    border-radius: 4px;
+    background-color: #001f4b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 13px;
+    padding-left: 13px;
+    width: 135px;
+}
